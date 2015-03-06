@@ -14,18 +14,26 @@
     </ListView>
 
     <ImageView 
-        android:id="@+id/iv_logo"
+        android:id="@+id/iv_circle"
         android:layout_width="fill_parent"
         android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/circle_shape"/>
+    
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/appwidget_f_logo" />
     
     <LinearLayout 
         android:id="@+id/ll_cover"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/iv_logo"
+        android:layout_below="@id/iv_circle"
         android:layout_alignParentBottom="true"
         android:gravity="center_horizontal"
         android:background="#eeffffff" >
